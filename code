@@ -5,4 +5,4 @@ kallisto index -i transcripts.idx transcripts.fasta.gz
 
 Quantification and SAM to BAM
 
-kallisto quant -i transcripts.kidx -b 30 -o kallisto_out --genomebam --gtf transcripts.gtf.gz --chromosomes chrom.txt reads_1.fastq.gz reads_2.fastq.gz
+kallisto quant -i transcripts.kidx -b 30 -o kallisto_out --genomebam --gtf transcripts.gtf.gz  reads_1.fastq.gz reads_2.fastq.gz
